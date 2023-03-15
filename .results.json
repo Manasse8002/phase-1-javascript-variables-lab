@@ -2,25 +2,25 @@
   "stats": {
     "suites": 4,
     "tests": 6,
-    "passes": 4,
+    "passes": 6,
     "pending": 0,
-    "failures": 2,
-    "start": "2022-11-29T11:55:51.763Z",
-    "end": "2022-11-29T11:55:52.109Z",
-    "duration": 346
+    "failures": 0,
+    "start": "2023-03-15T09:07:54.443Z",
+    "end": "2023-03-15T09:07:54.800Z",
+    "duration": 357
   },
   "tests": [
     {
       "title": "is set as Scuber",
       "fullTitle": "index.js companyName is set as Scuber",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "is defined as a const",
       "fullTitle": "index.js companyName is defined as a const",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {}
     },
@@ -29,10 +29,7 @@
       "fullTitle": "index.js mostProfitableNeighborhood is declared as equal to Chelsea",
       "duration": 0,
       "currentRetry": 0,
-      "err": {
-        "stack": "ReferenceError: mostProfitableNeighborhood is not defined\n    at Context.<anonymous> (test/indexTest.js:19:14)\n    at processImmediate (node:internal/timers:466:21)",
-        "message": "mostProfitableNeighborhood is not defined"
-      }
+      "err": {}
     },
     {
       "title": "is defined using let",
@@ -46,10 +43,7 @@
       "fullTitle": "index.js companyCeo is declared as equal to Susan Smith",
       "duration": 0,
       "currentRetry": 0,
-      "err": {
-        "stack": "ReferenceError: companyCeo is not defined\n    at Context.<anonymous> (test/indexTest.js:29:14)\n    at processImmediate (node:internal/timers:466:21)",
-        "message": "companyCeo is not defined"
-      }
+      "err": {}
     },
     {
       "title": "is defined using let",
@@ -60,39 +54,25 @@
     }
   ],
   "pending": [],
-  "failures": [
-    {
-      "title": "is declared as equal to Chelsea",
-      "fullTitle": "index.js mostProfitableNeighborhood is declared as equal to Chelsea",
-      "duration": 0,
-      "currentRetry": 0,
-      "err": {
-        "stack": "ReferenceError: mostProfitableNeighborhood is not defined\n    at Context.<anonymous> (test/indexTest.js:19:14)\n    at processImmediate (node:internal/timers:466:21)",
-        "message": "mostProfitableNeighborhood is not defined"
-      }
-    },
-    {
-      "title": "is declared as equal to Susan Smith",
-      "fullTitle": "index.js companyCeo is declared as equal to Susan Smith",
-      "duration": 0,
-      "currentRetry": 0,
-      "err": {
-        "stack": "ReferenceError: companyCeo is not defined\n    at Context.<anonymous> (test/indexTest.js:29:14)\n    at processImmediate (node:internal/timers:466:21)",
-        "message": "companyCeo is not defined"
-      }
-    }
-  ],
+  "failures": [],
   "passes": [
     {
       "title": "is set as Scuber",
       "fullTitle": "index.js companyName is set as Scuber",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "is defined as a const",
       "fullTitle": "index.js companyName is defined as a const",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "is declared as equal to Chelsea",
+      "fullTitle": "index.js mostProfitableNeighborhood is declared as equal to Chelsea",
       "duration": 0,
       "currentRetry": 0,
       "err": {}
@@ -101,6 +81,13 @@
       "title": "is defined using let",
       "fullTitle": "index.js mostProfitableNeighborhood is defined using let",
       "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "is declared as equal to Susan Smith",
+      "fullTitle": "index.js companyCeo is declared as equal to Susan Smith",
+      "duration": 0,
       "currentRetry": 0,
       "err": {}
     },
